@@ -1,16 +1,16 @@
 {
     "credentials": {
-        "tenantName": "fabrikamb2c",
-        "clientID": "93733604-cc77-4a3c-a604-87084dd55348"
+        "tenantName": "AwesomeTTT",
+        "clientID": "c8c96cd6-60e7-4e27-a553-1c15ecae6455"
     },
     "policies": {
-        "policyName": "B2C_1_SUSI"
+        "policyName": "B2C_1_signin"
     },
     "resource": {
-        "scope": ["demo.read"]
+        "scope": ["tasks.read", "tasks.write"]
     },
     "metadata": {
-        "authority": "login.microsoftonline.com",
+        "authority": "AwesomeTTT.b2clogin.com",
         "discovery": ".well-known/openid-configuration",
         "version": "v2.0"
     },
